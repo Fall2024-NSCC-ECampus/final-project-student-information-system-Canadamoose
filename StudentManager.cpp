@@ -27,14 +27,14 @@ StudentManager::StudentManager() {
     loadFromFile();
 }
 
-
 void StudentManager::loadFromFile() {
     std::ifstream file("students.txt");
     if (!file) {
-        std::cerr << "Error: could not open 'students.txt'. Starting with an empty list.\n";
+        std::cerr << "\nError: could not open 'students.txt'. Starting with an empty list.\n";
         return;
     }
 
+    // while not end of file, add data to student
     while (!file.eof()) {
         auto s = std::make_unique<Student>();
         file >> s->lastName >> s->firstName >> s->studentNumber
@@ -73,6 +73,7 @@ void StudentManager::PrintAllStudents() {
         return;
     }
 
+    // create a table-like CLI structure and populate with student data
     std::cout << std::left << std::setw(15) << "Last name"
               << std::setw(15) << "First name"
               << std::setw(15) << "Student number"
