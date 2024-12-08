@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.29"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "final_project_student_information_system_Canadamoose",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "final_project_student_information_system_Canadamoose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-final_project_student_information_system_Canadamoose-Debug-b3a2d1948732ef216914.json",
+					"name" : "final_project_student_information_system_Canadamoose",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/canad/Code/PROG2100/final-project-student-information-system-Canadamoose/cmake-build-debug",
+		"source" : "C:/Users/canad/Code/PROG2100/final-project-student-information-system-Canadamoose"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 7
+	}
+}
